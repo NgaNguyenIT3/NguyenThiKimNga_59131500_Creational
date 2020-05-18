@@ -9,13 +9,7 @@ package bt3;
  *
  * @author nga
  */
-public class BT2Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+//BT Factory Method Singleton
+public enum ShapeType {
+    rectangle, circle, triangle;
 }
