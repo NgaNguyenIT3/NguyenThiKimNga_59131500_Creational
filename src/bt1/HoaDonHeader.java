@@ -13,7 +13,7 @@ package bt1;
 public class HoaDonHeader {
     String mahoadon, ngayban, tenkhachhang;
 
-    protected HoaDonHeader(Builder builder) {
+    private HoaDonHeader(Builder builder) {
         this.mahoadon = builder.mahoadon;
         this.tenkhachhang = builder.tenkhachhang; 
         this.ngayban = builder.ngayban;

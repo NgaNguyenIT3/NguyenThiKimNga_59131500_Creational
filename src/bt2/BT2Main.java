@@ -16,6 +16,13 @@ public class BT2Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        MyStringBuilder strbuilder = new MyStringBuilder.Builder()
+                .addString("StringBuilder chuyển thành MyStringBuilder ")
+                .addFloat(5.5f)
+                .addBool(false)
+                .Build();
+        
+        System.out.println(strbuilder.toString());
     }
     
 }

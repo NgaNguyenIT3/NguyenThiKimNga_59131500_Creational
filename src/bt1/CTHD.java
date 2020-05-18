@@ -15,7 +15,7 @@ public class CTHD {
     int soluong;
     double dongia;
 
-    protected CTHD(Builder builder) {
+    private CTHD(Builder builder) {
          this.sanpham = builder.sanpham;
          this.soluong = builder.soluong;
          this.dongia = builder.dongia;

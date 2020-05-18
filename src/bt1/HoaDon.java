@@ -16,7 +16,7 @@ public class HoaDon {
     HoaDonHeader hoadonheader;
     ArrayList<CTHD>ListChiTietHoaDon;
 
-    protected HoaDon(Builder builder) {
+    private HoaDon(Builder builder) {
         this.ListChiTietHoaDon = builder.ListChiTietHoaDon;
         this.hoadonheader = builder.hoadonheader;
     }
